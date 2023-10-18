@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Load your Excel data
 df = pd.read_excel(
-    io='Elite_Usage.xlsx',
+    io='',
     engine='openpyxl',
     skiprows=[],
     nrows=628716,
@@ -23,10 +23,10 @@ august_data = df_filtered[df_filtered['date'].dt.month == 8]
 
 # Define a dictionary mapping usernames to email addresses
 emails = {
-    'ManjeetKumari': 'kumar@kumararchitecture.com',
-    'MCapozzo': 'tomcapozzo@gmail.com',
-    'MaxFried': 'maxsf08@gmail.com',
-    'WW2buff': 'aprilcourt1@gmail.com',
+    'example': 'example',
+    'example': 'example',
+    'example': 'example',
+    'example': 'example',
 }
 
 def create_pitch_count_chart(data):
