@@ -2,7 +2,7 @@
 
 This Python script utilizes the Streamlit, Pandas, and Altair libraries to create a data visualization tool for analyzing and presenting information related to elite coaching and pitch counts. The script performs the following key tasks:
 
-Loads data from an Excel file named 'Elite_Usage.xlsx' and stores it in a Pandas DataFrame.
+Loads data from an Excel file and stores it in a Pandas DataFrame.
 Filters the DataFrame to select data associated with a specific coach, identified as 'Austin McNicholas.'
 Converts the 'date' column in the DataFrame to datetime objects.
 Filters records for the entire month of August.
